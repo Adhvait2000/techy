@@ -12,12 +12,12 @@ import {
 import styles from './welcome.style'
 import { icons, SIZES} from '../../../constants';
 
-const jobTypes = ["Full-Time", "Part-Time", "Contractor"]
+const jobTypes = ["Full-Time", "Part-Time", "Internship"]
 
 const Welcome = ({searchTerm, setSearchTerm, handleClick}) => {
   const router = useRouter();
 
-  const [activeJobTypes, setActiveJobTypes] = useState("Full-Time")
+  const [activeJobTypes, setActiveJobTypes] = useState("Internship")
   
   return (
     <View>
